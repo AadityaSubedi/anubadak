@@ -1,0 +1,79 @@
+\hypertarget{classparser_1_1_a_s_t_if_node}{}\doxysection{parser\+::A\+S\+T\+If\+Node Class Reference}
+\label{classparser_1_1_a_s_t_if_node}\index{parser::ASTIfNode@{parser::ASTIfNode}}
+
+
+{\ttfamily \#include $<$ast.\+h$>$}
+
+Inheritance diagram for parser\+::A\+S\+T\+If\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classparser_1_1_a_s_t_if_node}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classparser_1_1_a_s_t_if_node_a23503c15c53466e3f7dc69b99713a2d6}{accept}} (\mbox{\hyperlink{classvisitor_1_1_visitor}{visitor\+::\+Visitor}} $\ast$) override
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_if_node_ae40d341d55348b2b0cfe49655a08fff7}{A\+S\+T\+If\+Node}} (\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$condition, \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$if\+Block, int line\+Number, \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$else\+Block=nullptr)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classparser_1_1_a_s_t_if_node_a9045b5eb54e2ade6f40e2056ebf0a546}{\+\_\+line\+Number}}
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_a_s_t_if_node_a986d472c36eb75892c3659a0505c696c}{\+\_\+condition}}
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_a_s_t_if_node_ab544994c052cc3f2bfd5a19861dc1c86}{\+\_\+if\+Block}}
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_a_s_t_if_node_a6fdea6a86befd148178ce458fe8bde7b}{\+\_\+else\+Block}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1_a_s_t_if_node_ae40d341d55348b2b0cfe49655a08fff7}\label{classparser_1_1_a_s_t_if_node_ae40d341d55348b2b0cfe49655a08fff7}} 
+\index{parser::ASTIfNode@{parser::ASTIfNode}!ASTIfNode@{ASTIfNode}}
+\index{ASTIfNode@{ASTIfNode}!parser::ASTIfNode@{parser::ASTIfNode}}
+\doxysubsubsection{\texorpdfstring{ASTIfNode()}{ASTIfNode()}}
+{\footnotesize\ttfamily A\+S\+T\+If\+Node\+::\+A\+S\+T\+If\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$}]{condition,  }\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$}]{if\+Block,  }\item[{int}]{line\+Number,  }\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$}]{else\+Block = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1_a_s_t_if_node_a23503c15c53466e3f7dc69b99713a2d6}\label{classparser_1_1_a_s_t_if_node_a23503c15c53466e3f7dc69b99713a2d6}} 
+\index{parser::ASTIfNode@{parser::ASTIfNode}!accept@{accept}}
+\index{accept@{accept}!parser::ASTIfNode@{parser::ASTIfNode}}
+\doxysubsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void A\+S\+T\+If\+Node\+::accept (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classvisitor_1_1_visitor}{visitor\+::\+Visitor}} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classparser_1_1_a_s_t_statement_node_a732c402271b56c252381b5050fa0e49c}{parser\+::\+A\+S\+T\+Statement\+Node}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classparser_1_1_a_s_t_if_node_a986d472c36eb75892c3659a0505c696c}\label{classparser_1_1_a_s_t_if_node_a986d472c36eb75892c3659a0505c696c}} 
+\index{parser::ASTIfNode@{parser::ASTIfNode}!\_condition@{\_condition}}
+\index{\_condition@{\_condition}!parser::ASTIfNode@{parser::ASTIfNode}}
+\doxysubsubsection{\texorpdfstring{\_condition}{\_condition}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}}$\ast$ parser\+::\+A\+S\+T\+If\+Node\+::\+\_\+condition}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_if_node_a6fdea6a86befd148178ce458fe8bde7b}\label{classparser_1_1_a_s_t_if_node_a6fdea6a86befd148178ce458fe8bde7b}} 
+\index{parser::ASTIfNode@{parser::ASTIfNode}!\_elseBlock@{\_elseBlock}}
+\index{\_elseBlock@{\_elseBlock}!parser::ASTIfNode@{parser::ASTIfNode}}
+\doxysubsubsection{\texorpdfstring{\_elseBlock}{\_elseBlock}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}}$\ast$ parser\+::\+A\+S\+T\+If\+Node\+::\+\_\+else\+Block}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_if_node_ab544994c052cc3f2bfd5a19861dc1c86}\label{classparser_1_1_a_s_t_if_node_ab544994c052cc3f2bfd5a19861dc1c86}} 
+\index{parser::ASTIfNode@{parser::ASTIfNode}!\_ifBlock@{\_ifBlock}}
+\index{\_ifBlock@{\_ifBlock}!parser::ASTIfNode@{parser::ASTIfNode}}
+\doxysubsubsection{\texorpdfstring{\_ifBlock}{\_ifBlock}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}}$\ast$ parser\+::\+A\+S\+T\+If\+Node\+::\+\_\+if\+Block}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_if_node_a9045b5eb54e2ade6f40e2056ebf0a546}\label{classparser_1_1_a_s_t_if_node_a9045b5eb54e2ade6f40e2056ebf0a546}} 
+\index{parser::ASTIfNode@{parser::ASTIfNode}!\_lineNumber@{\_lineNumber}}
+\index{\_lineNumber@{\_lineNumber}!parser::ASTIfNode@{parser::ASTIfNode}}
+\doxysubsubsection{\texorpdfstring{\_lineNumber}{\_lineNumber}}
+{\footnotesize\ttfamily int parser\+::\+A\+S\+T\+If\+Node\+::\+\_\+line\+Number}
+

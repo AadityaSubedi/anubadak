@@ -1,0 +1,103 @@
+\hypertarget{classparser_1_1_a_s_t_function_definition_node}{}\doxysection{parser\+::A\+S\+T\+Function\+Definition\+Node Class Reference}
+\label{classparser_1_1_a_s_t_function_definition_node}\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+
+
+{\ttfamily \#include $<$ast.\+h$>$}
+
+Inheritance diagram for parser\+::A\+S\+T\+Function\+Definition\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classparser_1_1_a_s_t_function_definition_node}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_a2f8e9bc8f3cded9b4560922597448675}{accept}} (\mbox{\hyperlink{classvisitor_1_1_visitor}{visitor\+::\+Visitor}} $\ast$) override
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_abdc7f0015269cde72393e80ceddb65cf}{A\+S\+T\+Function\+Definition\+Node}} (std\+::string, std\+::vector$<$ std\+::pair$<$ std\+::string, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$$>$, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}}, \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$func\+Def\+Block, int line\+Number)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_aac04dbcc2e80ba23530b61a7b6c13f7f}{\+\_\+line\+Number}}
+\item 
+std\+::string \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_a3fd80a2f995c91115df5d028f0935a41}{\+\_\+func\+Name}}
+\item 
+std\+::vector$<$ std\+::pair$<$ std\+::string, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$ $>$ \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_ae5f35f9d4843a194bc10fe17af9af6f2}{\+\_\+parameters}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$ \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_af98d8024dad9995be813edf25498a177}{\+\_\+signature}}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_a2fceeacb24cba4781dea9415faa4d2c4}{\+\_\+variable\+Names}}
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_a33676059ed7e51510ad25de24040ed78}{\+\_\+func\+Def\+Block}}
+\item 
+\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node_a04e073807ef885997ccffa7e75144967}{\+\_\+return\+Type}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_abdc7f0015269cde72393e80ceddb65cf}\label{classparser_1_1_a_s_t_function_definition_node_abdc7f0015269cde72393e80ceddb65cf}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!ASTFunctionDefinitionNode@{ASTFunctionDefinitionNode}}
+\index{ASTFunctionDefinitionNode@{ASTFunctionDefinitionNode}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{ASTFunctionDefinitionNode()}{ASTFunctionDefinitionNode()}}
+{\footnotesize\ttfamily A\+S\+T\+Function\+Definition\+Node\+::\+A\+S\+T\+Function\+Definition\+Node (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::vector$<$ std\+::pair$<$ std\+::string, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$$>$}]{parameters,  }\item[{\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}}}]{type,  }\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$}]{func\+Def\+Block,  }\item[{int}]{line\+Number }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_a2f8e9bc8f3cded9b4560922597448675}\label{classparser_1_1_a_s_t_function_definition_node_a2f8e9bc8f3cded9b4560922597448675}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!accept@{accept}}
+\index{accept@{accept}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void A\+S\+T\+Function\+Definition\+Node\+::accept (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classvisitor_1_1_visitor}{visitor\+::\+Visitor}} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classparser_1_1_a_s_t_statement_node_a732c402271b56c252381b5050fa0e49c}{parser\+::\+A\+S\+T\+Statement\+Node}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_a33676059ed7e51510ad25de24040ed78}\label{classparser_1_1_a_s_t_function_definition_node_a33676059ed7e51510ad25de24040ed78}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_funcDefBlock@{\_funcDefBlock}}
+\index{\_funcDefBlock@{\_funcDefBlock}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_funcDefBlock}{\_funcDefBlock}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}}$\ast$ parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+func\+Def\+Block}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_a3fd80a2f995c91115df5d028f0935a41}\label{classparser_1_1_a_s_t_function_definition_node_a3fd80a2f995c91115df5d028f0935a41}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_funcName@{\_funcName}}
+\index{\_funcName@{\_funcName}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_funcName}{\_funcName}}
+{\footnotesize\ttfamily std\+::string parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+func\+Name}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_aac04dbcc2e80ba23530b61a7b6c13f7f}\label{classparser_1_1_a_s_t_function_definition_node_aac04dbcc2e80ba23530b61a7b6c13f7f}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_lineNumber@{\_lineNumber}}
+\index{\_lineNumber@{\_lineNumber}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_lineNumber}{\_lineNumber}}
+{\footnotesize\ttfamily int parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+line\+Number}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_ae5f35f9d4843a194bc10fe17af9af6f2}\label{classparser_1_1_a_s_t_function_definition_node_ae5f35f9d4843a194bc10fe17af9af6f2}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_parameters@{\_parameters}}
+\index{\_parameters@{\_parameters}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_parameters}{\_parameters}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$std\+::string, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$ $>$ parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+parameters}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_a04e073807ef885997ccffa7e75144967}\label{classparser_1_1_a_s_t_function_definition_node_a04e073807ef885997ccffa7e75144967}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_returnType@{\_returnType}}
+\index{\_returnType@{\_returnType}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_returnType}{\_returnType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+return\+Type}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_af98d8024dad9995be813edf25498a177}\label{classparser_1_1_a_s_t_function_definition_node_af98d8024dad9995be813edf25498a177}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_signature@{\_signature}}
+\index{\_signature@{\_signature}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_signature}{\_signature}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}}$>$ parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+signature}
+
+\mbox{\Hypertarget{classparser_1_1_a_s_t_function_definition_node_a2fceeacb24cba4781dea9415faa4d2c4}\label{classparser_1_1_a_s_t_function_definition_node_a2fceeacb24cba4781dea9415faa4d2c4}} 
+\index{parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}!\_variableNames@{\_variableNames}}
+\index{\_variableNames@{\_variableNames}!parser::ASTFunctionDefinitionNode@{parser::ASTFunctionDefinitionNode}}
+\doxysubsubsection{\texorpdfstring{\_variableNames}{\_variableNames}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ parser\+::\+A\+S\+T\+Function\+Definition\+Node\+::\+\_\+variable\+Names}
+

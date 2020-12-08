@@ -1,0 +1,42 @@
+\hypertarget{lexer_8h}{}\doxysection{Anubadak/lexer/lexer.h File Reference}
+\label{lexer_8h}\index{Anubadak/lexer/lexer.h@{Anubadak/lexer/lexer.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}token.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classlexer_1_1_lexer}{lexer\+::\+Lexer}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacelexer}{lexer}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+PE}} \{ \newline
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a999bbbf1d86bc7611397c77222e076db}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+D\+I\+G\+IT}} = 0, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0ade58a28573783fe95304a260ccd90362}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+P\+E\+R\+I\+OD}} = 1, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a8b3a9cd829772c8c2bde0be95d8ff342}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+A\+D\+D\+I\+T\+I\+V\+E\+\_\+\+OP}} = 2, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a71ad0fa6a6a3e480ec3446bce7073e63}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+A\+S\+T\+E\+R\+I\+SK}} = 3, 
+\newline
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a61dbaabdce477ae43108f0cb29db73b2}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+E\+X\+C\+L\+\_\+\+M\+A\+RK}} = 4, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a8be444fdc4aafe7ec824782422cf3d23}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+O\+R\+D\+E\+R\+\_\+\+R\+EL}} = 5, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a6837aeca94b8f55801166eb031e26a5a}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+E\+Q\+U\+A\+LS}} = 6, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0aa058c5dc734e54ff3d93b96acac339f4}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+U\+N\+D\+E\+R\+S\+C\+O\+RE}} = 7, 
+\newline
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0ad615b982f62169925a2bc3a167007dcf}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+F\+O\+R\+W\+A\+R\+D\+S\+L\+A\+SH}} = 8, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0aecb4a6f3440c2ed0dff59f17375a27c0}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+B\+A\+C\+K\+S\+L\+A\+SH}} = 9, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a0b627d9020a024e0c7a5681f6e53d2ae}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+Q\+U\+O\+T\+A\+T\+I\+O\+N\+\_\+\+M\+A\+RK}} = 10, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a960f97209f43a4a31e959e7fb9ec573e}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+P\+U\+N\+C\+T\+U\+A\+T\+I\+ON}} = 11, 
+\newline
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a80c8c6b1bcf9ad27b73d5aaa56ed4ff3}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+N\+E\+W\+L\+I\+NE}} = 12, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a055b05aa58eadd86120b994017873064}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+E\+N\+D\+O\+F\+F\+I\+LE}} = 13, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a293c501027368f9a83d91179af6a4316}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+L\+E\+T\+T\+ER}} = 14, 
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0aa31e477b826d64fcd8d598eeb8b76354}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+P\+R\+I\+N\+T\+A\+B\+LE}} = 15, 
+\newline
+\mbox{\hyperlink{namespacelexer_a6019c4d14da52f4e341408d82432d6f0a03570470bad94692ce93e32700d2e1cb}{lexer\+::\+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+::\+O\+T\+H\+ER}} = 16
+ \}
+\end{DoxyCompactItemize}

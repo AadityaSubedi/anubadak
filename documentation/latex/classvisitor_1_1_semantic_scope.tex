@@ -1,0 +1,76 @@
+\hypertarget{classvisitor_1_1_semantic_scope}{}\doxysection{visitor\+::Semantic\+Scope Class Reference}
+\label{classvisitor_1_1_semantic_scope}\index{visitor::SemanticScope@{visitor::SemanticScope}}
+
+
+{\ttfamily \#include $<$senamtic\+Analysis.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} \mbox{\hyperlink{classvisitor_1_1_semantic_scope_ae7f851bfbbb4dfe64baeecaaa995f761}{get\+Type}} (std\+::string identifier)
+\item 
+\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} \mbox{\hyperlink{classvisitor_1_1_semantic_scope_a94f14d62c387f30dfa5320cf0ae05471}{get\+Type}} (std\+::string identifier, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$signature)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_semantic_scope_ab6fe9b89050f14ad53859e59cff09aa4}{declare}} (std\+::string identifier, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}}, int Line\+Number)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_semantic_scope_a0aed0cf34dbf2b7fbcf9647d4ae8b6db}{declare}} (std\+::string identifier, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} return\+Type, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$signature, int line\+Number)
+\item 
+bool \mbox{\hyperlink{classvisitor_1_1_semantic_scope_a0a1b2991b6c699398de6a51505feeb46}{already\+Declared}} (std\+::string identifier)
+\item 
+bool \mbox{\hyperlink{classvisitor_1_1_semantic_scope_a353f2bc9c4491bc006018b0e3387561a}{already\+Declared}} (std\+::string identifier, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$signature)
+\item 
+int \mbox{\hyperlink{classvisitor_1_1_semantic_scope_a791564b8ed48c9840a88364d04b246aa}{get\+Declaration\+Line}} (std\+::string identifier, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}})
+\item 
+int \mbox{\hyperlink{classvisitor_1_1_semantic_scope_a691cca32d29dbf6495c55110af0f5776}{get\+Declaration\+Line}} (std\+::string identifier, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$signature)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_a0a1b2991b6c699398de6a51505feeb46}\label{classvisitor_1_1_semantic_scope_a0a1b2991b6c699398de6a51505feeb46}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!alreadyDeclared@{alreadyDeclared}}
+\index{alreadyDeclared@{alreadyDeclared}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{alreadyDeclared()}{alreadyDeclared()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool visitor\+::\+Semantic\+Scope\+::already\+Declared (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_a353f2bc9c4491bc006018b0e3387561a}\label{classvisitor_1_1_semantic_scope_a353f2bc9c4491bc006018b0e3387561a}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!alreadyDeclared@{alreadyDeclared}}
+\index{alreadyDeclared@{alreadyDeclared}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{alreadyDeclared()}{alreadyDeclared()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool visitor\+::\+Semantic\+Scope\+::already\+Declared (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_a0aed0cf34dbf2b7fbcf9647d4ae8b6db}\label{classvisitor_1_1_semantic_scope_a0aed0cf34dbf2b7fbcf9647d4ae8b6db}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!declare@{declare}}
+\index{declare@{declare}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void visitor\+::\+Semantic\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}}}]{return\+Type,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature,  }\item[{int}]{line\+Number }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_ab6fe9b89050f14ad53859e59cff09aa4}\label{classvisitor_1_1_semantic_scope_ab6fe9b89050f14ad53859e59cff09aa4}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!declare@{declare}}
+\index{declare@{declare}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void visitor\+::\+Semantic\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}}}]{var\+Type,  }\item[{int}]{Line\+Number }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_a791564b8ed48c9840a88364d04b246aa}\label{classvisitor_1_1_semantic_scope_a791564b8ed48c9840a88364d04b246aa}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!getDeclarationLine@{getDeclarationLine}}
+\index{getDeclarationLine@{getDeclarationLine}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{getDeclarationLine()}{getDeclarationLine()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int visitor\+::\+Semantic\+Scope\+::get\+Declaration\+Line (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}}}]{type }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_a691cca32d29dbf6495c55110af0f5776}\label{classvisitor_1_1_semantic_scope_a691cca32d29dbf6495c55110af0f5776}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!getDeclarationLine@{getDeclarationLine}}
+\index{getDeclarationLine@{getDeclarationLine}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{getDeclarationLine()}{getDeclarationLine()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int visitor\+::\+Semantic\+Scope\+::get\+Declaration\+Line (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_ae7f851bfbbb4dfe64baeecaaa995f761}\label{classvisitor_1_1_semantic_scope_ae7f851bfbbb4dfe64baeecaaa995f761}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!getType@{getType}}
+\index{getType@{getType}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} visitor\+::\+Semantic\+Scope\+::get\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_semantic_scope_a94f14d62c387f30dfa5320cf0ae05471}\label{classvisitor_1_1_semantic_scope_a94f14d62c387f30dfa5320cf0ae05471}} 
+\index{visitor::SemanticScope@{visitor::SemanticScope}!getType@{getType}}
+\index{getType@{getType}!visitor::SemanticScope@{visitor::SemanticScope}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} visitor\+::\+Semantic\+Scope\+::get\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature }\end{DoxyParamCaption})}
+

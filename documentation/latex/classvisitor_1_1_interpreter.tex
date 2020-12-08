@@ -1,0 +1,263 @@
+\hypertarget{classvisitor_1_1_interpreter}{}\doxysection{visitor\+::Interpreter Class Reference}
+\label{classvisitor_1_1_interpreter}\index{visitor::Interpreter@{visitor::Interpreter}}
+
+
+{\ttfamily \#include $<$interpreter.\+h$>$}
+
+Inheritance diagram for visitor\+::Interpreter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classvisitor_1_1_interpreter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classvisitor_1_1_interpreter_aeacf3dff89626f39edc4e5445e1435d2}{Interpreter}} (\mbox{\hyperlink{classvisitor_1_1_interpreter_scope}{Interpreter\+Scope}} $\ast$global\+Scope)
+\item 
+\mbox{\hyperlink{classvisitor_1_1_interpreter_a5a293589c3b656159e1bfa0e9ed0c1f0}{Interpreter}} ()
+\item 
+\mbox{\hyperlink{classvisitor_1_1_interpreter_ad01e9359f22421518a372e0f9d4b3202}{$\sim$\+Interpreter}} ()=default
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_abc4790c355b4c2f2295cbd8cb45d5fee}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_program_node}{parser\+::\+A\+S\+T\+Program\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a0cd802043fa2ed421a7dce053cf213c9}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_declaration_node}{parser\+::\+A\+S\+T\+Declaration\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a1d0b1f26a0dde0d7537cd1ce9ccba9e0}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_assignment_node}{parser\+::\+A\+S\+T\+Assignment\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a31ef352deb77524e98bafa068b022436}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_print_node}{parser\+::\+A\+S\+T\+Print\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_ade42075f44e52e5b6422b2b1b9d73048}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_return_node}{parser\+::\+A\+S\+T\+Return\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_ab909c29370c26c1ef07c1525de8cefe2}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_ad0a03a10456a0070234e96bf01d56994}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_if_node}{parser\+::\+A\+S\+T\+If\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a8432dfbfca2bc8beef7c8099ddce1994}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_while_node}{parser\+::\+A\+S\+T\+While\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a6748a7efd126906f1c61f23035b712ed}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node}{parser\+::\+A\+S\+T\+Function\+Definition\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a6200d5f64f401248abc72452a5172457}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ int $>$ $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a05f0ba55dcec2f697fdab472dad07048}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ float $>$ $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a6c3f24fb21e7a12c16000c80ac8257e7}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ bool $>$ $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a918cbbaf254b93a2c3077a6191ecd98e}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ std\+::string $>$ $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a64ecfd6c4cb064e1d0d9be256e6da556}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_binary_expr_node}{parser\+::\+A\+S\+T\+Binary\+Expr\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a0dd73d8fc08e5822b1a9f7afd5aa9510}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_identifier_node}{parser\+::\+A\+S\+T\+Identifier\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_a4ff1ad63b072ad9c24913c6b910aa2fb}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_unary_expr_node}{parser\+::\+A\+S\+T\+Unary\+Expr\+Node}} $\ast$) override
+\item 
+virtual void \mbox{\hyperlink{classvisitor_1_1_interpreter_ae5d794dc44257c6f5b51f14fbda6bcaa}{visit}} (\mbox{\hyperlink{classparser_1_1_a_s_t_function_call_node}{parser\+::\+A\+S\+T\+Function\+Call\+Node}} $\ast$) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+wx\+Text\+Ctrl $\ast$ \mbox{\hyperlink{classvisitor_1_1_interpreter_aab18139e4bfc9e7b87a88beec652043d}{output}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_aeacf3dff89626f39edc4e5445e1435d2}\label{classvisitor_1_1_interpreter_aeacf3dff89626f39edc4e5445e1435d2}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!Interpreter@{Interpreter}}
+\index{Interpreter@{Interpreter}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{Interpreter()}{Interpreter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily visitor\+::\+Interpreter\+::\+Interpreter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classvisitor_1_1_interpreter_scope}{Interpreter\+Scope}} $\ast$}]{global\+Scope }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a5a293589c3b656159e1bfa0e9ed0c1f0}\label{classvisitor_1_1_interpreter_a5a293589c3b656159e1bfa0e9ed0c1f0}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!Interpreter@{Interpreter}}
+\index{Interpreter@{Interpreter}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{Interpreter()}{Interpreter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily visitor\+::\+Interpreter\+::\+Interpreter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_ad01e9359f22421518a372e0f9d4b3202}\label{classvisitor_1_1_interpreter_ad01e9359f22421518a372e0f9d4b3202}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!````~Interpreter@{$\sim$Interpreter}}
+\index{````~Interpreter@{$\sim$Interpreter}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{$\sim$Interpreter()}{~Interpreter()}}
+{\footnotesize\ttfamily visitor\+::\+Interpreter\+::$\sim$\+Interpreter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a1d0b1f26a0dde0d7537cd1ce9ccba9e0}\label{classvisitor_1_1_interpreter_a1d0b1f26a0dde0d7537cd1ce9ccba9e0}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_assignment_node}{parser\+::\+A\+S\+T\+Assignment\+Node}} $\ast$}]{assignment }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_acab3da2a734f392df2bb8f3e6ed964cf}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a64ecfd6c4cb064e1d0d9be256e6da556}\label{classvisitor_1_1_interpreter_a64ecfd6c4cb064e1d0d9be256e6da556}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_binary_expr_node}{parser\+::\+A\+S\+T\+Binary\+Expr\+Node}} $\ast$}]{binary\+Statement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a047e2a7d451555ae993947241af5f9f6}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_ab909c29370c26c1ef07c1525de8cefe2}\label{classvisitor_1_1_interpreter_ab909c29370c26c1ef07c1525de8cefe2}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [3/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$}]{block }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_ab9622b9a6f1c0efb0571c07e1afe5fe8}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a0cd802043fa2ed421a7dce053cf213c9}\label{classvisitor_1_1_interpreter_a0cd802043fa2ed421a7dce053cf213c9}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [4/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_declaration_node}{parser\+::\+A\+S\+T\+Declaration\+Node}} $\ast$}]{declaration }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a44789ba7a7285416069d60cf94365243}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_ae5d794dc44257c6f5b51f14fbda6bcaa}\label{classvisitor_1_1_interpreter_ae5d794dc44257c6f5b51f14fbda6bcaa}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [5/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_function_call_node}{parser\+::\+A\+S\+T\+Function\+Call\+Node}} $\ast$}]{func }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a7aa08d47f457c2a4da7cd7997ed7ef71}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a6748a7efd126906f1c61f23035b712ed}\label{classvisitor_1_1_interpreter_a6748a7efd126906f1c61f23035b712ed}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [6/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node}{parser\+::\+A\+S\+T\+Function\+Definition\+Node}} $\ast$}]{fn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a8a085a543dd644f18f8babbec3608d09}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a0dd73d8fc08e5822b1a9f7afd5aa9510}\label{classvisitor_1_1_interpreter_a0dd73d8fc08e5822b1a9f7afd5aa9510}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [7/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_identifier_node}{parser\+::\+A\+S\+T\+Identifier\+Node}} $\ast$}]{identifier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_adebc330bebf962cb697f509cbd6e4946}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_ad0a03a10456a0070234e96bf01d56994}\label{classvisitor_1_1_interpreter_ad0a03a10456a0070234e96bf01d56994}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [8/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_if_node}{parser\+::\+A\+S\+T\+If\+Node}} $\ast$}]{if\+Node }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_aeadf44263bc83f998df008799354192f}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a6c3f24fb21e7a12c16000c80ac8257e7}\label{classvisitor_1_1_interpreter_a6c3f24fb21e7a12c16000c80ac8257e7}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [9/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ bool $>$ $\ast$}]{lit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_aec54f3bec77b87e2d04d58596cc1a011}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a05f0ba55dcec2f697fdab472dad07048}\label{classvisitor_1_1_interpreter_a05f0ba55dcec2f697fdab472dad07048}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [10/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ float $>$ $\ast$}]{lit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_ac6cf24ee82c143b1c251dcce7ce8b443}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a6200d5f64f401248abc72452a5172457}\label{classvisitor_1_1_interpreter_a6200d5f64f401248abc72452a5172457}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [11/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ int $>$ $\ast$}]{lit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a70798d3e6c4ec8a69fdd53839a38ae4c}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a918cbbaf254b93a2c3077a6191ecd98e}\label{classvisitor_1_1_interpreter_a918cbbaf254b93a2c3077a6191ecd98e}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [12/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_literal_node}{parser\+::\+A\+S\+T\+Literal\+Node}}$<$ std\+::string $>$ $\ast$}]{lit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_acc3257b2ef7c7fcf63e5d1758740d35c}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a31ef352deb77524e98bafa068b022436}\label{classvisitor_1_1_interpreter_a31ef352deb77524e98bafa068b022436}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [13/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_print_node}{parser\+::\+A\+S\+T\+Print\+Node}} $\ast$}]{print }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a63ffe9e566e3bdb182104cb5f6d6adb5}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_abc4790c355b4c2f2295cbd8cb45d5fee}\label{classvisitor_1_1_interpreter_abc4790c355b4c2f2295cbd8cb45d5fee}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [14/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_program_node}{parser\+::\+A\+S\+T\+Program\+Node}} $\ast$}]{prog }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a562fa001506c8949127895a638bba70a}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_ade42075f44e52e5b6422b2b1b9d73048}\label{classvisitor_1_1_interpreter_ade42075f44e52e5b6422b2b1b9d73048}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [15/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_return_node}{parser\+::\+A\+S\+T\+Return\+Node}} $\ast$}]{ret }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a48cdba5dcf77e758dbf757951ac5a8e4}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a4ff1ad63b072ad9c24913c6b910aa2fb}\label{classvisitor_1_1_interpreter_a4ff1ad63b072ad9c24913c6b910aa2fb}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [16/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_unary_expr_node}{parser\+::\+A\+S\+T\+Unary\+Expr\+Node}} $\ast$}]{un }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_a298f120dce658260dcda76594988254f}{visitor\+::\+Visitor}}.
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_a8432dfbfca2bc8beef7c8099ddce1994}\label{classvisitor_1_1_interpreter_a8432dfbfca2bc8beef7c8099ddce1994}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!visit@{visit}}
+\index{visit@{visit}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{visit()}{visit()}\hspace{0.1cm}{\footnotesize\ttfamily [17/17]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+::visit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_while_node}{parser\+::\+A\+S\+T\+While\+Node}} $\ast$}]{while\+Node }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classvisitor_1_1_visitor_acf4f7cf72bd30f8ccdfa1e96ec1f50ac}{visitor\+::\+Visitor}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_aab18139e4bfc9e7b87a88beec652043d}\label{classvisitor_1_1_interpreter_aab18139e4bfc9e7b87a88beec652043d}} 
+\index{visitor::Interpreter@{visitor::Interpreter}!output@{output}}
+\index{output@{output}!visitor::Interpreter@{visitor::Interpreter}}
+\doxysubsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily wx\+Text\+Ctrl$\ast$ visitor\+::\+Interpreter\+::output}
+

@@ -1,0 +1,100 @@
+\hypertarget{classvisitor_1_1_interpreter_scope}{}\doxysection{visitor\+::Interpreter\+Scope Class Reference}
+\label{classvisitor_1_1_interpreter_scope}\index{visitor::InterpreterScope@{visitor::InterpreterScope}}
+
+
+{\ttfamily \#include $<$interpreter.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_a9f90b5e506a5d2627b9c2c8ca8f33785}{already\+Declared}} (std\+::string)
+\item 
+\mbox{\hyperlink{structvisitor_1_1value__t}{value\+\_\+t}} \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_a0335059c7f5b2b4265a60dc1302168ce}{get\+Value\+Of}} (std\+::string identifier)
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_ad69d7bb9e9f826529b84ec7835f7b289}{get\+Variables\+Names\+Of}} (std\+::string, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$signature)
+\item 
+bool \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_aa702d7bfe23ac52fe3285e0e7d209ed0}{already\+Declared}} (std\+::string identifier, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$)
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$ \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_ac133546992b5fe3c34cff1b07443d4cb}{get\+Block\+Of}} (std\+::string, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$signature)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_ac89ecd52956b44189675a8054715f278}{declare}} (std\+::string, int)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_aa9d29821d1f62297a7bcf814a1fc768d}{declare}} (std\+::string, float)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_af5166e6c5fe1398a7ab186af293b5afb}{declare}} (std\+::string, bool)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_a2e025031a08a1516fb929cbb7d92b22d}{declare}} (std\+::string, std\+::string)
+\item 
+void \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_a2721400a21670cc64a2a62155e5b6948}{declare}} (std\+::string, std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$, std\+::vector$<$ std\+::string $>$, \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$)
+\item 
+\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} \mbox{\hyperlink{classvisitor_1_1_interpreter_scope_a2beef6288e4280c7895b65587066908b}{get\+Type\+Of}} (std\+::string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_aa702d7bfe23ac52fe3285e0e7d209ed0}\label{classvisitor_1_1_interpreter_scope_aa702d7bfe23ac52fe3285e0e7d209ed0}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!alreadyDeclared@{alreadyDeclared}}
+\index{alreadyDeclared@{alreadyDeclared}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{alreadyDeclared()}{alreadyDeclared()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool visitor\+::\+Interpreter\+Scope\+::already\+Declared (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_a9f90b5e506a5d2627b9c2c8ca8f33785}\label{classvisitor_1_1_interpreter_scope_a9f90b5e506a5d2627b9c2c8ca8f33785}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!alreadyDeclared@{alreadyDeclared}}
+\index{alreadyDeclared@{alreadyDeclared}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{alreadyDeclared()}{alreadyDeclared()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool visitor\+::\+Interpreter\+Scope\+::already\+Declared (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_af5166e6c5fe1398a7ab186af293b5afb}\label{classvisitor_1_1_interpreter_scope_af5166e6c5fe1398a7ab186af293b5afb}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!declare@{declare}}
+\index{declare@{declare}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{bool}]{bool\+Value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_aa9d29821d1f62297a7bcf814a1fc768d}\label{classvisitor_1_1_interpreter_scope_aa9d29821d1f62297a7bcf814a1fc768d}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!declare@{declare}}
+\index{declare@{declare}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{float}]{float\+Value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_ac89ecd52956b44189675a8054715f278}\label{classvisitor_1_1_interpreter_scope_ac89ecd52956b44189675a8054715f278}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!declare@{declare}}
+\index{declare@{declare}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_a2e025031a08a1516fb929cbb7d92b22d}\label{classvisitor_1_1_interpreter_scope_a2e025031a08a1516fb929cbb7d92b22d}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!declare@{declare}}
+\index{declare@{declare}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::string}]{s }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_a2721400a21670cc64a2a62155e5b6948}\label{classvisitor_1_1_interpreter_scope_a2721400a21670cc64a2a62155e5b6948}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!declare@{declare}}
+\index{declare@{declare}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{declare()}{declare()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily void visitor\+::\+Interpreter\+Scope\+::declare (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature,  }\item[{std\+::vector$<$ std\+::string $>$}]{variable\+Names,  }\item[{\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$}]{block }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_ac133546992b5fe3c34cff1b07443d4cb}\label{classvisitor_1_1_interpreter_scope_ac133546992b5fe3c34cff1b07443d4cb}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!getBlockOf@{getBlockOf}}
+\index{getBlockOf@{getBlockOf}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{getBlockOf()}{getBlockOf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$ visitor\+::\+Interpreter\+Scope\+::get\+Block\+Of (\begin{DoxyParamCaption}\item[{std\+::string}]{func\+Name,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_a2beef6288e4280c7895b65587066908b}\label{classvisitor_1_1_interpreter_scope_a2beef6288e4280c7895b65587066908b}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!getTypeOf@{getTypeOf}}
+\index{getTypeOf@{getTypeOf}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{getTypeOf()}{getTypeOf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} visitor\+::\+Interpreter\+Scope\+::get\+Type\+Of (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_a0335059c7f5b2b4265a60dc1302168ce}\label{classvisitor_1_1_interpreter_scope_a0335059c7f5b2b4265a60dc1302168ce}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!getValueOf@{getValueOf}}
+\index{getValueOf@{getValueOf}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{getValueOf()}{getValueOf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structvisitor_1_1value__t}{value\+\_\+t}} visitor\+::\+Interpreter\+Scope\+::get\+Value\+Of (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classvisitor_1_1_interpreter_scope_ad69d7bb9e9f826529b84ec7835f7b289}\label{classvisitor_1_1_interpreter_scope_ad69d7bb9e9f826529b84ec7835f7b289}} 
+\index{visitor::InterpreterScope@{visitor::InterpreterScope}!getVariablesNamesOf@{getVariablesNamesOf}}
+\index{getVariablesNamesOf@{getVariablesNamesOf}!visitor::InterpreterScope@{visitor::InterpreterScope}}
+\doxysubsubsection{\texorpdfstring{getVariablesNamesOf()}{getVariablesNamesOf()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ visitor\+::\+Interpreter\+Scope\+::get\+Variables\+Names\+Of (\begin{DoxyParamCaption}\item[{std\+::string}]{func\+Name,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} $>$}]{signature }\end{DoxyParamCaption})}
+

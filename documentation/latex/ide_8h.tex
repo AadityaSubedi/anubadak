@@ -1,0 +1,133 @@
+\hypertarget{ide_8h}{}\doxysection{Anubadak/ide.h File Reference}
+\label{ide_8h}\index{Anubadak/ide.h@{Anubadak/ide.h}}
+{\ttfamily \#include $<$wx/frame.\+h$>$}\newline
+{\ttfamily \#include $<$wx/textctrl.\+h$>$}\newline
+{\ttfamily \#include $<$wx/treectrl.\+h$>$}\newline
+{\ttfamily \#include $<$wx/splitter.\+h$>$}\newline
+{\ttfamily \#include $<$wx/dir.\+h$>$}\newline
+{\ttfamily \#include $<$wx/wxprec.\+h$>$}\newline
+{\ttfamily \#include $<$wx/imaglist.\+h$>$}\newline
+{\ttfamily \#include $<$wx/artprov.\+h$>$}\newline
+{\ttfamily \#include $<$wx/dirdlg.\+h$>$}\newline
+{\ttfamily \#include $<$wx/notebook.\+h$>$}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_main_app}{Main\+App}}
+\item 
+class \mbox{\hyperlink{class_main_frame}{Main\+Frame}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \newline
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba2e92f5cdd3ba8c7ff230ee4146b52f2c}{M\+A\+I\+N\+T\+E\+XT}} = wx\+I\+D\+\_\+\+H\+I\+G\+H\+E\+ST + 1, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba1f7a5574b76195a27b04152509632efc}{C\+O\+N\+S\+O\+LE}} = wx\+I\+D\+\_\+\+H\+I\+G\+H\+E\+ST + 2, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55babc709eb0220494e5e32e19c3be4c0834}{E\+D\+I\+T\+I\+OR}} = wx\+I\+D\+\_\+\+H\+I\+G\+H\+E\+ST + 3, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55badb30c8a52835513de59a852dffcb36f6}{F\+I\+L\+E\+T\+R\+EE}} = wx\+I\+D\+\_\+\+H\+I\+G\+H\+E\+ST + 4, 
+\newline
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba2ab08d3e103968f5f4f26b66a52e99d6}{O\+U\+T\+P\+UT}} = wx\+I\+D\+\_\+\+H\+I\+G\+H\+E\+ST +5, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba3e6a0aaac873649b044308789d880b79}{P\+A\+N\+EL}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55baa705bc707e52f931dd2b21b61c57c7ab}{N\+O\+T\+E\+B\+O\+OK}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bac470978aa310911694b62ecc5d6807ea}{N\+E\+W\+P\+R\+O\+J\+E\+CT}}, 
+\newline
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba354a136fd00fb437dcd75c545d4e0e07}{O\+P\+E\+N\+P\+R\+O\+J\+E\+CT}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba1aa3fcc22f55eab68d0a73356afdc3d3}{O\+P\+E\+N\+F\+I\+LE}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55baf7c5e6a2f1c3748b8fd07a89071dd8c3}{M\+E\+N\+U\+\_\+\+Close}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55badea38e758e394c0fa3ba58d20b713316}{M\+E\+N\+U\+\_\+\+Save}}, 
+\newline
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba36f3b128344a2af521fb5d3b35aca790}{M\+E\+N\+U\+\_\+\+Save\+As}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba9efc7eb2a35abccd314231d6d433c641}{M\+E\+N\+U\+\_\+\+Quit}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba439c688a4e9ed31638d5922a50680a8e}{R\+UN}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba15dfb17e35fe2a1f5081eff037dfd728}{D\+E\+B\+U\+G\+C\+O\+DE}}, 
+\newline
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bac7b2e916edd71d0ba96498145e16e6a9}{P\+R\+O\+J\+E\+C\+T\+\_\+\+A\+D\+D\+C\+L\+A\+SS}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bad2dcdf50ecb7969a0aa74729fc0435f0}{P\+R\+O\+J\+E\+C\+T\+\_\+\+A\+D\+D\+F\+I\+LE}}, 
+\mbox{\hyperlink{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba452572673bb086539e34028aeeb9cfc8}{P\+R\+O\+J\+E\+C\+T\+\_\+\+D\+E\+L\+E\+TE}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55b}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55b}} 
+\doxysubsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MAINTEXT@{MAINTEXT}!ide.h@{ide.h}}\index{ide.h@{ide.h}!MAINTEXT@{MAINTEXT}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba2e92f5cdd3ba8c7ff230ee4146b52f2c}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba2e92f5cdd3ba8c7ff230ee4146b52f2c}} 
+M\+A\+I\+N\+T\+E\+XT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CONSOLE@{CONSOLE}!ide.h@{ide.h}}\index{ide.h@{ide.h}!CONSOLE@{CONSOLE}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba1f7a5574b76195a27b04152509632efc}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba1f7a5574b76195a27b04152509632efc}} 
+C\+O\+N\+S\+O\+LE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EDITIOR@{EDITIOR}!ide.h@{ide.h}}\index{ide.h@{ide.h}!EDITIOR@{EDITIOR}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55babc709eb0220494e5e32e19c3be4c0834}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55babc709eb0220494e5e32e19c3be4c0834}} 
+E\+D\+I\+T\+I\+OR&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FILETREE@{FILETREE}!ide.h@{ide.h}}\index{ide.h@{ide.h}!FILETREE@{FILETREE}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55badb30c8a52835513de59a852dffcb36f6}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55badb30c8a52835513de59a852dffcb36f6}} 
+F\+I\+L\+E\+T\+R\+EE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OUTPUT@{OUTPUT}!ide.h@{ide.h}}\index{ide.h@{ide.h}!OUTPUT@{OUTPUT}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba2ab08d3e103968f5f4f26b66a52e99d6}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba2ab08d3e103968f5f4f26b66a52e99d6}} 
+O\+U\+T\+P\+UT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PANEL@{PANEL}!ide.h@{ide.h}}\index{ide.h@{ide.h}!PANEL@{PANEL}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba3e6a0aaac873649b044308789d880b79}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba3e6a0aaac873649b044308789d880b79}} 
+P\+A\+N\+EL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NOTEBOOK@{NOTEBOOK}!ide.h@{ide.h}}\index{ide.h@{ide.h}!NOTEBOOK@{NOTEBOOK}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55baa705bc707e52f931dd2b21b61c57c7ab}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55baa705bc707e52f931dd2b21b61c57c7ab}} 
+N\+O\+T\+E\+B\+O\+OK&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NEWPROJECT@{NEWPROJECT}!ide.h@{ide.h}}\index{ide.h@{ide.h}!NEWPROJECT@{NEWPROJECT}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bac470978aa310911694b62ecc5d6807ea}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bac470978aa310911694b62ecc5d6807ea}} 
+N\+E\+W\+P\+R\+O\+J\+E\+CT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OPENPROJECT@{OPENPROJECT}!ide.h@{ide.h}}\index{ide.h@{ide.h}!OPENPROJECT@{OPENPROJECT}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba354a136fd00fb437dcd75c545d4e0e07}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba354a136fd00fb437dcd75c545d4e0e07}} 
+O\+P\+E\+N\+P\+R\+O\+J\+E\+CT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OPENFILE@{OPENFILE}!ide.h@{ide.h}}\index{ide.h@{ide.h}!OPENFILE@{OPENFILE}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba1aa3fcc22f55eab68d0a73356afdc3d3}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba1aa3fcc22f55eab68d0a73356afdc3d3}} 
+O\+P\+E\+N\+F\+I\+LE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MENU\_Close@{MENU\_Close}!ide.h@{ide.h}}\index{ide.h@{ide.h}!MENU\_Close@{MENU\_Close}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55baf7c5e6a2f1c3748b8fd07a89071dd8c3}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55baf7c5e6a2f1c3748b8fd07a89071dd8c3}} 
+M\+E\+N\+U\+\_\+\+Close&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MENU\_Save@{MENU\_Save}!ide.h@{ide.h}}\index{ide.h@{ide.h}!MENU\_Save@{MENU\_Save}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55badea38e758e394c0fa3ba58d20b713316}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55badea38e758e394c0fa3ba58d20b713316}} 
+M\+E\+N\+U\+\_\+\+Save&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MENU\_SaveAs@{MENU\_SaveAs}!ide.h@{ide.h}}\index{ide.h@{ide.h}!MENU\_SaveAs@{MENU\_SaveAs}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba36f3b128344a2af521fb5d3b35aca790}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba36f3b128344a2af521fb5d3b35aca790}} 
+M\+E\+N\+U\+\_\+\+Save\+As&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MENU\_Quit@{MENU\_Quit}!ide.h@{ide.h}}\index{ide.h@{ide.h}!MENU\_Quit@{MENU\_Quit}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba9efc7eb2a35abccd314231d6d433c641}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba9efc7eb2a35abccd314231d6d433c641}} 
+M\+E\+N\+U\+\_\+\+Quit&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{RUN@{RUN}!ide.h@{ide.h}}\index{ide.h@{ide.h}!RUN@{RUN}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba439c688a4e9ed31638d5922a50680a8e}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba439c688a4e9ed31638d5922a50680a8e}} 
+R\+UN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DEBUGCODE@{DEBUGCODE}!ide.h@{ide.h}}\index{ide.h@{ide.h}!DEBUGCODE@{DEBUGCODE}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba15dfb17e35fe2a1f5081eff037dfd728}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba15dfb17e35fe2a1f5081eff037dfd728}} 
+D\+E\+B\+U\+G\+C\+O\+DE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_ADDCLASS@{PROJECT\_ADDCLASS}!ide.h@{ide.h}}\index{ide.h@{ide.h}!PROJECT\_ADDCLASS@{PROJECT\_ADDCLASS}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bac7b2e916edd71d0ba96498145e16e6a9}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bac7b2e916edd71d0ba96498145e16e6a9}} 
+P\+R\+O\+J\+E\+C\+T\+\_\+\+A\+D\+D\+C\+L\+A\+SS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_ADDFILE@{PROJECT\_ADDFILE}!ide.h@{ide.h}}\index{ide.h@{ide.h}!PROJECT\_ADDFILE@{PROJECT\_ADDFILE}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bad2dcdf50ecb7969a0aa74729fc0435f0}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55bad2dcdf50ecb7969a0aa74729fc0435f0}} 
+P\+R\+O\+J\+E\+C\+T\+\_\+\+A\+D\+D\+F\+I\+LE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PROJECT\_DELETE@{PROJECT\_DELETE}!ide.h@{ide.h}}\index{ide.h@{ide.h}!PROJECT\_DELETE@{PROJECT\_DELETE}}}\mbox{\Hypertarget{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba452572673bb086539e34028aeeb9cfc8}\label{ide_8h_a06fc87d81c62e9abb8790b6e5713c55ba452572673bb086539e34028aeeb9cfc8}} 
+P\+R\+O\+J\+E\+C\+T\+\_\+\+D\+E\+L\+E\+TE&\\
+\hline
+
+\end{DoxyEnumFields}

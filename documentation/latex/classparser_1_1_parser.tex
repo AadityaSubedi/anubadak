@@ -1,0 +1,183 @@
+\hypertarget{classparser_1_1_parser}{}\doxysection{parser\+::Parser Class Reference}
+\label{classparser_1_1_parser}\index{parser::Parser@{parser::Parser}}
+
+
+{\ttfamily \#include $<$parser.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classparser_1_1_parser_af1ac38d5f30044efddc811c6057aab8d}{Parser}} (\mbox{\hyperlink{classlexer_1_1_lexer}{lexer\+::\+Lexer}} $\ast$lex)
+\item 
+\mbox{\hyperlink{classparser_1_1_parser_ad9529ed8b12fd203e59a2987c08e2f9d}{Parser}} (\mbox{\hyperlink{classlexer_1_1_lexer}{lexer\+::\+Lexer}} $\ast$lex, unsigned int tokens)
+\item 
+void \mbox{\hyperlink{classparser_1_1_parser_af70e4b2a7c2010a4ab19bed4fc488847}{consume\+Token}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_program_node}{parser\+::\+A\+S\+T\+Program\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a46a328187ed2401d1a9c50d374a6398c}{parse\+\_\+program}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_node}{parser\+::\+A\+S\+T\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a175be1e30c2c0beaeaff08bdd16e554e}{parse\+Statement}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_declaration_node}{parser\+::\+A\+S\+T\+Declaration\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_ac4ad9bb75eea6f26fd9e35efdf1cdbfd}{parse\+Declaration\+Statement}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_assignment_node}{parser\+::\+A\+S\+T\+Assignment\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a149306cd9e06bee5c527f7335ef44ed7}{parse\+Assignment\+Statement}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_print_node}{parser\+::\+A\+S\+T\+Print\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a1185e1f3bd452f3fb5dd9aaa4736bc77}{parse\+Print\+Statement}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{parser\+::\+A\+S\+T\+Block\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a20d78733f915b422e2e2c89f1fd7891b}{parse\+Block}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_if_node}{parser\+::\+A\+S\+T\+If\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a716aabf807ae587d4c9a58e0c9609035}{parse\+If\+Block}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_return_node}{parser\+::\+A\+S\+T\+Return\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a710c8a0e864d1c0ee8dc787f1220dba7}{parse\+Return\+Statement}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_while_node}{parser\+::\+A\+S\+T\+While\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a9a51df7f0c29c7f46af01594e8f52bbf}{parse\+While\+Block}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node}{parser\+::\+A\+S\+T\+Function\+Definition\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a37edea8dbd2f154c1d89c5bea91bf612}{parse\+Function\+Definition}} ()
+\item 
+std\+::pair$<$ std\+::string, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$ $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a1b225b9d94e401888d635caca9182332}{parse\+Formal\+Parameter}} ()
+\item 
+\mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{parser\+::\+T\+Y\+PE}} \mbox{\hyperlink{classparser_1_1_parser_a3e6d6fb854fec8aac817172651b7b602}{parse\+Type}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{parser\+::\+A\+S\+T\+Expr\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a075f6e367982171ec3c8d6f95c0ee04e}{parse\+Expression}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{parser\+::\+A\+S\+T\+Expr\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_aef8609dbbf39bd4fe05abb6b3e629316}{parse\+Simple\+Expression}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{parser\+::\+A\+S\+T\+Expr\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a3ecb4a853c4f04942461ce0245929c50}{parse\+Expression\+Term}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{parser\+::\+A\+S\+T\+Expr\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a415cde129ac4176d9b4134507894647b}{parse\+Expression\+Factor}} ()
+\item 
+\mbox{\hyperlink{classparser_1_1_a_s_t_function_call_node}{parser\+::\+A\+S\+T\+Function\+Call\+Node}} $\ast$ \mbox{\hyperlink{classparser_1_1_parser_ab1f3d8ea9e08f82fedc7ea5d3616d7e6}{parse\+Function\+Call\+Expr}} ()
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classparser_1_1_parser_a6eca403ed46cf8b09eae8dc3f6a2e8a1}{parse\+Actual\+Parameter}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1_parser_af1ac38d5f30044efddc811c6057aab8d}\label{classparser_1_1_parser_af1ac38d5f30044efddc811c6057aab8d}} 
+\index{parser::Parser@{parser::Parser}!Parser@{Parser}}
+\index{Parser@{Parser}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{Parser()}{Parser()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily parser\+::\+Parser\+::\+Parser (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlexer_1_1_lexer}{lexer\+::\+Lexer}} $\ast$}]{lex }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_ad9529ed8b12fd203e59a2987c08e2f9d}\label{classparser_1_1_parser_ad9529ed8b12fd203e59a2987c08e2f9d}} 
+\index{parser::Parser@{parser::Parser}!Parser@{Parser}}
+\index{Parser@{Parser}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{Parser()}{Parser()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily parser\+::\+Parser\+::\+Parser (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlexer_1_1_lexer}{lexer\+::\+Lexer}} $\ast$}]{lex,  }\item[{unsigned int}]{tokens }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1_parser_af70e4b2a7c2010a4ab19bed4fc488847}\label{classparser_1_1_parser_af70e4b2a7c2010a4ab19bed4fc488847}} 
+\index{parser::Parser@{parser::Parser}!consumeToken@{consumeToken}}
+\index{consumeToken@{consumeToken}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{consumeToken()}{consumeToken()}}
+{\footnotesize\ttfamily void parser\+::\+Parser\+::consume\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a46a328187ed2401d1a9c50d374a6398c}\label{classparser_1_1_parser_a46a328187ed2401d1a9c50d374a6398c}} 
+\index{parser::Parser@{parser::Parser}!parse\_program@{parse\_program}}
+\index{parse\_program@{parse\_program}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parse\_program()}{parse\_program()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_program_node}{A\+S\+T\+Program\+Node}} $\ast$ parser\+::\+Parser\+::parse\+\_\+program (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a6eca403ed46cf8b09eae8dc3f6a2e8a1}\label{classparser_1_1_parser_a6eca403ed46cf8b09eae8dc3f6a2e8a1}} 
+\index{parser::Parser@{parser::Parser}!parseActualParameter@{parseActualParameter}}
+\index{parseActualParameter@{parseActualParameter}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseActualParameter()}{parseActualParameter()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ $>$ $\ast$ parser\+::\+Parser\+::parse\+Actual\+Parameter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a149306cd9e06bee5c527f7335ef44ed7}\label{classparser_1_1_parser_a149306cd9e06bee5c527f7335ef44ed7}} 
+\index{parser::Parser@{parser::Parser}!parseAssignmentStatement@{parseAssignmentStatement}}
+\index{parseAssignmentStatement@{parseAssignmentStatement}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseAssignmentStatement()}{parseAssignmentStatement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_assignment_node}{A\+S\+T\+Assignment\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Assignment\+Statement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a20d78733f915b422e2e2c89f1fd7891b}\label{classparser_1_1_parser_a20d78733f915b422e2e2c89f1fd7891b}} 
+\index{parser::Parser@{parser::Parser}!parseBlock@{parseBlock}}
+\index{parseBlock@{parseBlock}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseBlock()}{parseBlock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_block_node}{A\+S\+T\+Block\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_ac4ad9bb75eea6f26fd9e35efdf1cdbfd}\label{classparser_1_1_parser_ac4ad9bb75eea6f26fd9e35efdf1cdbfd}} 
+\index{parser::Parser@{parser::Parser}!parseDeclarationStatement@{parseDeclarationStatement}}
+\index{parseDeclarationStatement@{parseDeclarationStatement}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseDeclarationStatement()}{parseDeclarationStatement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_declaration_node}{A\+S\+T\+Declaration\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Declaration\+Statement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a075f6e367982171ec3c8d6f95c0ee04e}\label{classparser_1_1_parser_a075f6e367982171ec3c8d6f95c0ee04e}} 
+\index{parser::Parser@{parser::Parser}!parseExpression@{parseExpression}}
+\index{parseExpression@{parseExpression}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseExpression()}{parseExpression()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a415cde129ac4176d9b4134507894647b}\label{classparser_1_1_parser_a415cde129ac4176d9b4134507894647b}} 
+\index{parser::Parser@{parser::Parser}!parseExpressionFactor@{parseExpressionFactor}}
+\index{parseExpressionFactor@{parseExpressionFactor}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseExpressionFactor()}{parseExpressionFactor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Expression\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a3ecb4a853c4f04942461ce0245929c50}\label{classparser_1_1_parser_a3ecb4a853c4f04942461ce0245929c50}} 
+\index{parser::Parser@{parser::Parser}!parseExpressionTerm@{parseExpressionTerm}}
+\index{parseExpressionTerm@{parseExpressionTerm}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseExpressionTerm()}{parseExpressionTerm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Expression\+Term (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a1b225b9d94e401888d635caca9182332}\label{classparser_1_1_parser_a1b225b9d94e401888d635caca9182332}} 
+\index{parser::Parser@{parser::Parser}!parseFormalParameter@{parseFormalParameter}}
+\index{parseFormalParameter@{parseFormalParameter}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseFormalParameter()}{parseFormalParameter()}}
+{\footnotesize\ttfamily std\+::pair$<$ std\+::string, \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} $>$ $\ast$ parser\+::\+Parser\+::parse\+Formal\+Parameter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_ab1f3d8ea9e08f82fedc7ea5d3616d7e6}\label{classparser_1_1_parser_ab1f3d8ea9e08f82fedc7ea5d3616d7e6}} 
+\index{parser::Parser@{parser::Parser}!parseFunctionCallExpr@{parseFunctionCallExpr}}
+\index{parseFunctionCallExpr@{parseFunctionCallExpr}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseFunctionCallExpr()}{parseFunctionCallExpr()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_function_call_node}{A\+S\+T\+Function\+Call\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Function\+Call\+Expr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a37edea8dbd2f154c1d89c5bea91bf612}\label{classparser_1_1_parser_a37edea8dbd2f154c1d89c5bea91bf612}} 
+\index{parser::Parser@{parser::Parser}!parseFunctionDefinition@{parseFunctionDefinition}}
+\index{parseFunctionDefinition@{parseFunctionDefinition}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseFunctionDefinition()}{parseFunctionDefinition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_function_definition_node}{A\+S\+T\+Function\+Definition\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Function\+Definition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a716aabf807ae587d4c9a58e0c9609035}\label{classparser_1_1_parser_a716aabf807ae587d4c9a58e0c9609035}} 
+\index{parser::Parser@{parser::Parser}!parseIfBlock@{parseIfBlock}}
+\index{parseIfBlock@{parseIfBlock}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseIfBlock()}{parseIfBlock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_if_node}{A\+S\+T\+If\+Node}} $\ast$ parser\+::\+Parser\+::parse\+If\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a1185e1f3bd452f3fb5dd9aaa4736bc77}\label{classparser_1_1_parser_a1185e1f3bd452f3fb5dd9aaa4736bc77}} 
+\index{parser::Parser@{parser::Parser}!parsePrintStatement@{parsePrintStatement}}
+\index{parsePrintStatement@{parsePrintStatement}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parsePrintStatement()}{parsePrintStatement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_print_node}{A\+S\+T\+Print\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Print\+Statement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a710c8a0e864d1c0ee8dc787f1220dba7}\label{classparser_1_1_parser_a710c8a0e864d1c0ee8dc787f1220dba7}} 
+\index{parser::Parser@{parser::Parser}!parseReturnStatement@{parseReturnStatement}}
+\index{parseReturnStatement@{parseReturnStatement}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseReturnStatement()}{parseReturnStatement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_return_node}{A\+S\+T\+Return\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Return\+Statement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_aef8609dbbf39bd4fe05abb6b3e629316}\label{classparser_1_1_parser_aef8609dbbf39bd4fe05abb6b3e629316}} 
+\index{parser::Parser@{parser::Parser}!parseSimpleExpression@{parseSimpleExpression}}
+\index{parseSimpleExpression@{parseSimpleExpression}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseSimpleExpression()}{parseSimpleExpression()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_expr_node}{A\+S\+T\+Expr\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Simple\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a175be1e30c2c0beaeaff08bdd16e554e}\label{classparser_1_1_parser_a175be1e30c2c0beaeaff08bdd16e554e}} 
+\index{parser::Parser@{parser::Parser}!parseStatement@{parseStatement}}
+\index{parseStatement@{parseStatement}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseStatement()}{parseStatement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_node}{A\+S\+T\+Node}} $\ast$ parser\+::\+Parser\+::parse\+Statement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a3e6d6fb854fec8aac817172651b7b602}\label{classparser_1_1_parser_a3e6d6fb854fec8aac817172651b7b602}} 
+\index{parser::Parser@{parser::Parser}!parseType@{parseType}}
+\index{parseType@{parseType}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseType()}{parseType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceparser_af429a6adb053c473af9a5ab65c664f1d}{T\+Y\+PE}} parser\+::\+Parser\+::parse\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classparser_1_1_parser_a9a51df7f0c29c7f46af01594e8f52bbf}\label{classparser_1_1_parser_a9a51df7f0c29c7f46af01594e8f52bbf}} 
+\index{parser::Parser@{parser::Parser}!parseWhileBlock@{parseWhileBlock}}
+\index{parseWhileBlock@{parseWhileBlock}!parser::Parser@{parser::Parser}}
+\doxysubsubsection{\texorpdfstring{parseWhileBlock()}{parseWhileBlock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classparser_1_1_a_s_t_while_node}{A\+S\+T\+While\+Node}} $\ast$ parser\+::\+Parser\+::parse\+While\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
